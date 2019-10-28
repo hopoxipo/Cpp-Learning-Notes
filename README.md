@@ -1,2 +1,11 @@
-# Cpp-Learning-Notes
-C++笔记
+* [C++参考手册](https://zh.cppreference.com/w/%E9%A6%96%E9%A1%B5)
+* [Qt文档](https://doc.qt.io/qt-5/qt.html)
+* [Qt类](https://doc.qt.io/qt-5/classes.html)
+* [Qt教程](https://www.devbean.net/2012/08/qt-study-road-2-catelog/)
+* [WPF教程](https://docs.microsoft.com/zh-cn/dotnet/framework/wpf/getting-started/index)
+* [MFC教程](http://www.jizhuomi.com/software/257.html)
+* [OpenGL教程](https://learnopengl-cn.github.io/)
+* [Asio教程](https://mmoaay.gitbooks.io/boost-asio-cpp-network-programming-chinese/content/Chapter1.html)
+* [LeetCode题库](https://leetcode-cn.com/explore/)
+* [英文原版技术书籍在线阅读](https://www.safaribooksonline.com/public/free-trial/)
+* [C++适用领域](https://www.zhihu.com/question/304959838)
