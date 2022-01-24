@@ -84,7 +84,7 @@
             double daily_tbl[period];
         };
     ```
-    如果某个静态成员的应用场景仅限于编译器看了一替换它的值的情况，则一个初始化的 const 或 cosnstexpr static 不需要分别
+    如果某个静态成员的应用场景仅限于编译器可以替换它的值的情况，则一个初始化的 const 或 cosnstexpr static 不需要分别
     定义。否则，如果将它用域值不饿能替换的场景中，则该成员必须有一条定义语句。例如，如果 period 的唯一用途就是定义 daily_tbl 的
     维度，则不需要在 Account 外面专门定义 period。但当需要把 Account::period 传递给一个接受 const int& 的函数时，必须定义
     period。如果在类的内部提供了一个初始值，则成员的定义不能再指定一个初始值了：
