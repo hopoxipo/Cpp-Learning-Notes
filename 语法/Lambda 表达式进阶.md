@@ -119,3 +119,20 @@
         // void (*func_ptr2)() = capturing;  // 错误：有捕获的 lambda 不能转换
     ```
  * 现在介绍一下 Lambda 表达式的递归用法
+   * 结合 std::function 实现递归
+     ```cpp
+     #include <iostream>
+     #include <functional>
+
+     int main()
+     {
+        std::function<int(int)> func;
+        func = [&func](int n) -> int{
+          if (n <= 1) return 1;
+          return n * func(n - 1);
+        };
+
+        std::cout << func(5) << "\n";
+        return 0;
+     }
+     ``` 
